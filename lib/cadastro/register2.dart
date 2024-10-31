@@ -48,7 +48,12 @@ class Register2 extends StatelessWidget {
                   filled: true),
             ),
             ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.popUntil(
+                    context, 
+                    ModalRoute.withName('/'),
+                    );
+                },
                 style: const ButtonStyle(
                     elevation: WidgetStatePropertyAll<double>(0)),
                 child: const Text("Criar")),

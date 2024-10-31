@@ -57,7 +57,9 @@ class Register extends StatelessWidget {
                   filled: true),
             ),
             ElevatedButton(
-                onPressed: () {},
+              onPressed: () {
+                Navigator.pushNamed(context, '/register2');
+              },
                 style: const ButtonStyle(
                     elevation: WidgetStatePropertyAll<double>(0)),
                 child: const Text("Continuar")),

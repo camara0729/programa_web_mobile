@@ -48,7 +48,9 @@ class Login extends StatelessWidget {
                   filled: true),
             ),
             ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                    Navigator.pushNamed(context, '/homepage');
+                },
                 style: const ButtonStyle(
                     elevation: WidgetStatePropertyAll<double>(0)),
                 child: const Text("Entrar")),
@@ -70,7 +72,9 @@ class Login extends StatelessWidget {
                 onPressed: () {}, child: const Text("Entrar com o Gmail")),
             const Divider(),
             TextButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.pushNamed(context, '/register');
+              },
               child: const Text(
                 "Não tem conta? Cadastre-se",
                 style: TextStyle(

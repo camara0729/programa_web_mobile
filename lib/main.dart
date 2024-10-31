@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:programa_web_mobile/homepage/homepage.dart';
 import 'package:programa_web_mobile/login.dart';
-import 'package:programa_web_mobile/register.dart';
-import 'package:programa_web_mobile/register2.dart';
+import 'package:programa_web_mobile/cadastro/register.dart';
+import 'package:programa_web_mobile/cadastro/register2.dart';
 
 void main() {
   runApp(const MainApp());
@@ -12,10 +13,16 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      color: Color(0xFF353535),
-      home: Register()
+      color: const Color(0xFF353535),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => const Login(),
+        '/register': (context) => const Register(),
+        '/register2': (context) => const Register2(),
+        '/homepage': (context) => const Homepage()
+      },
     );
   }
 }
