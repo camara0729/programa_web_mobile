@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:programa_web_mobile/bottomnavigator.dart';
 import 'package:programa_web_mobile/homepage/homepage.dart';
 import 'package:programa_web_mobile/login.dart';
 import 'package:programa_web_mobile/cadastro/register.dart';
@@ -21,7 +22,8 @@ class MainApp extends StatelessWidget {
         '/': (context) => const Login(),
         '/register': (context) => const Register(),
         '/register2': (context) => const Register2(),
-        '/homepage': (context) => const Homepage()
+        '/homepage': (context) => const Homepage(),
+        '/bottomnavigator': (context) => const BottomNavigator()
       },
     );
   }

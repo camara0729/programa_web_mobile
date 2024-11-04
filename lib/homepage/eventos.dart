@@ -51,36 +51,108 @@ class Eventos extends StatelessWidget {
                   icon: const Icon(Icons.filter_alt_outlined)),
             ],
           ),
-          SizedBox(
-              height: MediaQuery.of(context).size.height * 0.5,
-              child: ListView(
-                children: [
-                  Card(
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        const Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text("Local: "),
-                            Text("Horário: "),
-                            Text("Preço: "),
-                          ],
-                        ),
-                        Column(
-                          children: [
-                            ElevatedButton(
-                                onPressed: () {}, child: const Text("Mapa")),
-                            TextButton(
-                                onPressed: () {},
-                                child: const Text("Mais Informações")),
-                          ],
-                        )
-                      ],
-                    ),
-                  )
-                ],
-              ))
+          Expanded(
+            child: ListView(
+              children: [
+                Card(
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      const Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text("Local: "),
+                          Text("Horário: "),
+                          Text("Preço: "),
+                        ],
+                      ),
+                      Column(
+                        children: [
+                          ElevatedButton(
+                              onPressed: () {}, child: const Text("Mapa")),
+                          TextButton(
+                              onPressed: () {},
+                              child: const Text("Mais Informações")),
+                        ],
+                      )
+                    ],
+                  ),
+                ),
+                Card(
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      const Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text("Local: "),
+                          Text("Horário: "),
+                          Text("Preço: "),
+                        ],
+                      ),
+                      Column(
+                        children: [
+                          ElevatedButton(
+                              onPressed: () {}, child: const Text("Mapa")),
+                          TextButton(
+                              onPressed: () {},
+                              child: const Text("Mais Informações")),
+                        ],
+                      )
+                    ],
+                  ),
+                ),
+                Card(
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      const Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text("Local: "),
+                          Text("Horário: "),
+                          Text("Preço: "),
+                        ],
+                      ),
+                      Column(
+                        children: [
+                          ElevatedButton(
+                              onPressed: () {}, child: const Text("Mapa")),
+                          TextButton(
+                              onPressed: () {},
+                              child: const Text("Mais Informações")),
+                        ],
+                      )
+                    ],
+                  ),
+                ),
+                Card(
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      const Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text("Local: "),
+                          Text("Horário: "),
+                          Text("Preço: "),
+                        ],
+                      ),
+                      Column(
+                        children: [
+                          ElevatedButton(
+                              onPressed: () {}, child: const Text("Mapa")),
+                          TextButton(
+                              onPressed: () {},
+                              child: const Text("Mais Informações")),
+                        ],
+                      )
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ),
         ],
       ),
     );

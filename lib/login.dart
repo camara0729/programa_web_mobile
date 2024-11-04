@@ -49,7 +49,7 @@ class Login extends StatelessWidget {
             ),
             ElevatedButton(
                 onPressed: () {
-                    Navigator.pushNamed(context, '/homepage');
+                    Navigator.pushNamed(context, '/bottomnavigator');
                 },
                 style: const ButtonStyle(
                     elevation: WidgetStatePropertyAll<double>(0)),
