@@ -20,7 +20,7 @@ class Publicacoes extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Icon(Icons.person, size: 40,),
+                            Icon(Icons.person_outline, size: 40,),
                             SizedBox(width: 8),
                             Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
@@ -42,13 +42,13 @@ class Publicacoes extends StatelessWidget {
                           children: [
                             IconButton(
                                 onPressed: () {},
-                                icon: const Icon(Icons.favorite)),
+                                icon: const Icon(Icons.favorite_border)),
                             IconButton(
                                 onPressed: () {},
-                                icon: const Icon(Icons.comment)),
+                                icon: const Icon(Icons.comment_outlined)),
                             IconButton(
                                 onPressed: () {},
-                                icon: const Icon(Icons.share)),
+                                icon: const Icon(Icons.share_outlined)),
                           ],
                         ),
                       ],
@@ -63,7 +63,7 @@ class Publicacoes extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Icon(Icons.person, size: 40,),
+                            Icon(Icons.person_outline, size: 40,),
                             SizedBox(width: 8),
                             Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
@@ -85,13 +85,13 @@ class Publicacoes extends StatelessWidget {
                           children: [
                             IconButton(
                                 onPressed: () {},
-                                icon: const Icon(Icons.favorite)),
+                                icon: const Icon(Icons.favorite_border)),
                             IconButton(
                                 onPressed: () {},
-                                icon: const Icon(Icons.comment)),
+                                icon: const Icon(Icons.comment_outlined)),
                             IconButton(
                                 onPressed: () {},
-                                icon: const Icon(Icons.share)),
+                                icon: const Icon(Icons.share_outlined)),
                           ],
                         ),
                       ],
@@ -106,7 +106,7 @@ class Publicacoes extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Icon(Icons.person, size: 40,),
+                            Icon(Icons.person_outline, size: 40,),
                             SizedBox(width: 8),
                             Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
@@ -128,13 +128,13 @@ class Publicacoes extends StatelessWidget {
                           children: [
                             IconButton(
                                 onPressed: () {},
-                                icon: const Icon(Icons.favorite)),
+                                icon: const Icon(Icons.favorite_border)),
                             IconButton(
                                 onPressed: () {},
-                                icon: const Icon(Icons.comment)),
+                                icon: const Icon(Icons.comment_outlined)),
                             IconButton(
                                 onPressed: () {},
-                                icon: const Icon(Icons.share)),
+                                icon: const Icon(Icons.share_outlined)),
                           ],
                         ),
                       ],
