@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:programa_web_mobile/chat.dart';
 import 'package:programa_web_mobile/homepage/homepage.dart';
+import 'package:programa_web_mobile/profile.dart';
+import 'package:programa_web_mobile/search.dart';
 
 class BottomNavigator extends StatefulWidget {
   const BottomNavigator({super.key});
@@ -14,14 +17,13 @@ class _BottomNavigatorState extends State<BottomNavigator> {
       TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
   static const List<Widget> _widgetOptions = <Widget>[
     Homepage(),
-    Text(
-      'Index 1: Business',
-      style: optionStyle,
-    ),
+    Search(),
     Text(
       'Index 2: School',
       style: optionStyle,
     ),
+    Chat(),
+    Profile()
   ];
 
   void _onItemTapped(int index) {
